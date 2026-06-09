@@ -1,10 +1,15 @@
 import './App.css'
-import Counter from './features/counter/Counter.jsx'
+import PostsList from './features/posts/PostsList.jsx'
+import AddPostForm from './features/posts/AddPostForm.jsx'
+
 
 function App() {
   
   return (
-    <Counter />
+    <div className="App">
+      <AddPostForm />
+      <PostsList />
+    </div>
   )
 }
 
