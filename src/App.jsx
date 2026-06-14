@@ -1,14 +1,12 @@
 import './App.css'
-import PostsList from './features/posts/PostsList.jsx'
-import AddPostForm from './features/posts/AddPostForm.jsx'
+import TodoList from './features/todos/TodoList'
 
 
 function App() {
   
   return (
     <div className="App">
-      <AddPostForm />
-      <PostsList />
+      <TodoList />
     </div>
   )
 }
